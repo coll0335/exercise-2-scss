@@ -1,0 +1,83 @@
+/* This file imports of your scss partials to be compiles into one stylesheet, which you can then attach to your html.
+
+All files that are previxed with an underscore "_name-of-file.scss" are called partials — meaning their css isn't compiled unless its imported into unprefixed .scss file */
+/* This file contains all our variables  */
+/* are placeholders for storing information that you want to reuse throughout your styles.
+	You can */
+/* This file contains all our mixins  */
+/* This is our main file for css/sass */
+/* line 4, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/exercises/exercise-2-scss/scss/components/main */
+body {
+  background-color: #233D4D;
+  font-family: sans-serif;
+  margin: 0;
+  width: 100%;
+  text-transform: uppercase; }
+
+/* line 12, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/exercises/exercise-2-scss/scss/components/main */
+a {
+  text-decoration: none;
+  text-align: center;
+  font-weight: 900;
+  color: #03012C;
+  transition: all 250ms linear; }
+
+/* line 21, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/exercises/exercise-2-scss/scss/components/main */
+i {
+  font-size: 250px;
+  color: #03012C; }
+
+/* line 26, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/exercises/exercise-2-scss/scss/components/main */
+.header {
+  padding: 0.5em 0;
+  letter-spacing: 3px;
+  color: #ffffff;
+  width: 100%; }
+
+/* line 33, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/exercises/exercise-2-scss/scss/components/main */
+.wrapper {
+  text-align: center; }
+
+/* line 37, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/exercises/exercise-2-scss/scss/components/main */
+.container {
+  width: 50%;
+  margin: 0;
+  display: inline-block;
+  float: left;
+  padding: 2em 0;
+  overflow: hidden;
+  background-color: #F7EF99; }
+
+/* line 47, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/exercises/exercise-2-scss/scss/components/main */
+.colour-change {
+  background-color: #F7B32B; }
+
+/* line 51, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/exercises/exercise-2-scss/scss/components/main */
+.icon-wrapper {
+  margin-top: 1em; }
+
+/* line 55, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/exercises/exercise-2-scss/scss/components/main */
+.primary-square {
+  background-color: #F7EF99;
+  border-radius: 3px;
+  padding: 0.5em 1em;
+  margin: 1em;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff; }
+  /* line 12, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/exercises/exercise-2-scss/scss/mixins */
+  .primary-square:hover {
+    background-color: #F7B32B; }
+
+/* line 59, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/exercises/exercise-2-scss/scss/components/main */
+.secondary-square {
+  background-color: #03012C;
+  border-radius: 3px;
+  padding: 0.5em 1em;
+  margin: 1em;
+  display: inline-block;
+  text-decoration: none;
+  color: #000; }
+  /* line 12, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/exercises/exercise-2-scss/scss/mixins */
+  .secondary-square:hover {
+    background-color: #02001E; }
